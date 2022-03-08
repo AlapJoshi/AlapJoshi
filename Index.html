@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <title>CT Invoice Template</title>
+</head>
+<!-- <style>
+    *{margin:0;padding:0;box-sizing:border-box}body{font-family:'DM Sans',sans-serif}h4{font-weight:510;font-size:16px}h5{font-weight:500;font-size:13.5px;color:#5081BB;font-weight:bolder}p{font-weight:500;font-size:13.5px}section{width:21cm;min-height:29.7cm;padding:2cm;margin:1cm auto}.header{width:100%;line-height:2}.header .logo{max-width:30%;height:auto}.line{width:100%;height:5px;display:flex}.line .line1{width:25%;border-bottom:5px solid #4572FB}.line .line2{width:25%;border-bottom:5px solid #6E74FB}.line .line3{width:25%;border-bottom:5px solid #76AFFC}.line .line4{width:25%;border-bottom:5px solid #A7B0FC}.container{max-width:1300px;width:100%;margin-left:auto;margin-right:auto;padding-top:5px;padding-left:20px;padding-right:10px;display:flex;position:static}.from{width:50%;line-height:1.5;float:left;text-align:left}.right-from{width:50%;float:right;text-align:right}.right-from .inv-date{display:inline-flex;text-align:center;align-items:center}.right-from .inv-no{display:inline-flex}.right-from .inv-LUT{display:inline-flex}.to{width:50%;line-height:1.5;float:left;text-align:left;margin-top:30px}.table{margin-top:50px;border:2px solid #d3d3d3!important;text-align:center!important;border-collapse:collapse;width:100%;position:relative}.table thead{background-color:#5081BB;border:1px solid #d3d3d3;color:#fff;width:50%}.table thead th{font-family:'DM Sans',sans-serif!important;font-weight:300;justify-content:center;border:1px solid #d3d3d3;padding:5px 0;font-weight:500;font-size:13.5px}.table tbody td{font-weight:500;font-size:13.5px;padding:5px 0;border:1px solid #d3d3d3}.w50{width:50%}.w12{width:12.5%}.w25{width:55%}.text-line{margin-top:40px}.pay-table{border:1.5px solid gray!important;text-align:center!important;border-collapse:collapse;width:100%;position:relative}.pay-table thead th{font-family:'DM Sans',sans-serif!important;font-weight:300;justify-content:center;padding:5px 0;font-weight:500;font-size:13.5px}.pay-table thead{background-color:#5081BB;color:#fff;width:50%}.pay-table tbody td{font-weight:500;font-size:13.5px;padding:5px;text-align:left}.pay-table tbody td:first-child{border-right:1px solid gray}.greet h5{margin-top:50px;text-align:center;font-size:20px!important;font-weight:570;margin-bottom:50px}.foot{margin-top:10px;width:100%;display:flex;justify-content:center}.foot .site{font-weight:700;float:right;text-align:right;padding-right:45px}.foot .mail-id{font-weight:700;float:left;text-align:left;padding-left:45px}
+</style> -->
+
+<body>
+
+    <section>
+        <!-- Header Section -->
+        <div class="header">
+            <div class="logo"><img src="./logo - Horizontal.svg" alt="logo"></div>
+            <div class="add">
+                <h4>1004, ABC Center, Paldi, Ahmedabad, Gujarat - 380007</h4>
+            </div>
+            <div class="line">
+                <div class="line1"> </div>
+                <div class="line2"> </div>
+                <div class="line3"> </div>
+                <div class="line4"> </div>
+            </div>
+        </div>
+        <!-- billing section -->
+        <!-- from section -->
+        <div class="container">
+            <div class="from">
+                <h5>From:</h5>
+                <p>CodeTheorem</p>
+                <p>Pan: ABCGDD333E</p>
+                <p>GST: 99XXXXX9999E1ZC</p>
+                <p>State Code: 24</p>
+            </div>
+            <div class="right-from">
+                <div class="inv-date">
+                    <h5>Date:&nbsp;</h5>
+                    <p>1<sup>st</sup> March 2022
+                </div>
+                </p>
+                <div class="inv-no">
+                    <h5>Invoice No:&nbsp;</h5>
+                    <p>EXP/99/21-22
+                </div>
+                </p>
+                <div class="inv-LUT">
+                    <h5>LUT NO:&nbsp;</h5>
+                    <p>AD249999999999X
+                </div>
+                </p>
+            </div>
+        </div>
+        <!-- to section -->
+        <div class="container">
+            <div class="to">
+                <h5>TO:</h5>
+                <p>Client Name</p>
+                <p>Address</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="w50">PARTICULAR</th>
+                        <th class="w12">HOURS</th>
+                        <th class="w12">RATE</th>
+                        <th class="25">TOTAL (USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="w50"></td>
+                        <td class="w12"># Hours</td>
+                        <td class="w12"># USD</td>
+                        <td class="25">#</td>
+                    </tr>
+                    <tr>
+                        <td class="w50"></td>
+                        <td class="w12"></td>
+                        <td class="w12"># USD</td>
+                        <td class="25">#</td>
+                    </tr>
+                    <tr>
+                        <td class="w50">IGST @18%</td>
+                        <td class="w12"></td>
+                        <td class="w12"></td>
+                        <td class="25">-</td>
+                    </tr>
+                    <tr>
+                        <td class="w50">Total Invoice Amount</td>
+                        <td class="w12"></td>
+                        <td class="w12"></td>
+                        <td class="25">#</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- text line for payment  -->
+        <div class="text-line">
+            <p>EXPORT OF SERVICE WITHOUT PAYMENT OF TAX UNDER LUT</p>
+        </div>
+
+        <!-- payment info table  -->
+        <div class="container">
+            <table class="pay-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">BANK DETAILS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bank Name</td>
+                        <td>XXX Bank</td>
+                    </tr>
+                    <tr>
+                        <td>Branch Name</td>
+                        <td>XXXX, Ahmedabad</td>
+                    </tr>
+                    <tr>
+                        <td>Account Name</td>
+                        <td>Comany Name</td>
+                    </tr>
+                    <tr>
+                        <td>Account Number</td>
+                        <td>01234567891234</td>
+                    </tr>
+                    <tr>
+                        <td>Swift Code</td>
+                        <td>XXXXBANKXXX</td>
+                    </tr>
+                    <tr>
+                        <td>IFSC Code</td>
+                        <td>XXXX0123456</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- greeting line -->
+        <div class="greet">
+            <h5>Thank you for your business!</h5>
+        </div>
+
+        <div class="line">
+            <div class="line1"> </div>
+            <div class="line2"> </div>
+            <div class="line3"> </div>
+            <div class="line4"> </div>
+        </div>
+
+        <div class="container">
+            <footer class="foot">
+                <div class="site">www.XXX.co</div>
+                <div class="mdl-line">|</div>
+                <div class="mail-id">help@XXXXX.co</div>
+            </footer>
+        </div>
+    </section>
+
+</body>
+
+</html>
